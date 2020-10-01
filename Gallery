@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Gallery of arts</title></head>
+<body>
+<figure>
+<img src="A.jpg" alt="">
+<figcaption>
+<p>Italian Gothic adorning angel, circa 1395–1396, lunense marble from Carrara, Italy, <em>Metropolitan Museum of Art</em></p>
+</figure>
+<figure>
+<img src="A1.jpg" alt="">
+<figcaption>
+<p><i>Angel of the Revelation</i> by <b class="person">William Blake</b>, between circa 1803 and circa 1805</p>
+</figure>
+<figure>
+<img src="A2.jpg" alt="">
+<figcaption>
+<p><i>Schutzengel</i> (<i lang="eng">Guardian Angel</i>) by <b class="person">Bernhard Plockhorst</b> depicts a guardian angel watching over two children</p>
+</figure>
+<figure>
+<img src="A3.jpg" alt="">
+<figcaption>
+<p>Southern German Baroque angel, by <b class="person">Ignaz Günther</b>, circa 1760–1770, lindenwood with traces of gesso, <em>Metropolitan Museum of Art</em></p>
+</figure>
+<figure>
+<img src="A4.jpg" alt="">
+<figcaption>
+<p>Italian Gothic angel of the annunciation, circa 1430–1440, <b class="person">Istrian limestone</b>, gesso and gilt, <em>Metropolitan Museum of Art</em></p>
+</figure>
+<figure>
+<img src="A5.jpg" alt="">
+<figcaption>
+<p><i>Kristus i Getsemane</i> (1873), an angel comforting Jesus before his arrest in the Garden of Gethsemane, by <b class="person">Carl Heinrich Bloch</b></p>
+</figure>
+<figure>
+<img src="A6.jpg" alt="">
+<figcaption>
+<p>Corinthian capital with an angel who wolds a festoon with his wings, in <em>Stiftskirche Mariae Himmelfahrt, Schlägl</em></p>
+</figure>
+<figure>
+<img src="A7.jpg" alt="">
+<figcaption>
+<p>The Archangel Michael wears a Roman military cloak and cuirass in this 17th-century depiction by <b class="person">Guido Reni</b></p>
+</figure>
+</body>
+</html>
