@@ -1,7 +1,3 @@
-.banner {
- color: #FFF8DC;
-}
-
  body {
    font: 1.5em/1.5
 "Times New Roman", Times, serif;
@@ -32,5 +28,8 @@ h2 {
  color: #ff8dc
 } 
 
+.banner {
+ color: #FFF8DC;
+}
 
 
