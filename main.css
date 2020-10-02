@@ -24,8 +24,9 @@ body {
 background-color: #00D9B8;
 }
 
-#header {
+h1 {
  color: #ff8dc;
+ text-align: center; 
 }
 
 
