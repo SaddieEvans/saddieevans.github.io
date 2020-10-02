@@ -18,12 +18,6 @@ a:hover {
 a:active {
  color: darkblue;
 }
-
-.header {
-  background-color: #ff8dc;
-  text-align: center;
-  padding: 20px;
-}
   
 body {
   color: #00A084;
