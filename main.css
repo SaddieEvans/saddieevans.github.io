@@ -4,7 +4,13 @@
 "Times New Roman", Times, serif;
 }
 
+ a:link {
+  color: white; 
+}
 
+a:visited {
+ color: white;
+}
 
 body {
   color: #00A084;
