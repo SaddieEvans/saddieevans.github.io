@@ -16,6 +16,10 @@ a:hover {
  color: gray;
 }
 
+a:active {
+ color: darkblue;
+}
+  
 body {
   color: #00A084;
 background-color: #00D9B8;
