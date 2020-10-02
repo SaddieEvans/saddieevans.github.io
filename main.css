@@ -1,6 +1,6 @@
 
  body {
-   font: .75em/1.5
+   font: 1em/1.5
 "Times New Roman", Times, serif;
 }
 
@@ -13,7 +13,6 @@ background-color: #00D9B8;
 
 header {
  color: #4D4637;
-  text-shadow: -5px 5px 15px ##DDB839;
 }
 
 
