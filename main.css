@@ -1,3 +1,19 @@
 
-font: 2em/1.5
-"Times New Roman", Times, serif
+ body {
+   font: 2em/1.5
+"Times New Roman", Times, serif;
+}
+
+
+
+body {
+  color: #B3AA99;
+background-color: #00D9B8;
+}
+
+header {
+  text-shadow: -5px 5px 15px ##DDB839;
+}
+
+
+
