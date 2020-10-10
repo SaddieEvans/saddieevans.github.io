@@ -24,7 +24,7 @@ body {
 background-color: #00D9B8;
 }
 
-.hidden {
+#hidden {
     position: absolute !important;
     height: 1px;
     width: 1px;
@@ -32,3 +32,65 @@ background-color: #00D9B8;
     clip: rect(1px 1px 1px 1px); 
     clip: rect(1px, 1px, 1px, 1px);
 }
+
+#nav-jump {
+    border: 3px solid #290d03;
+    border-radius: 14px;
+    background: #984800;
+    color: white;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 1em;
+    padding: .5em;
+    text-transform: uppercase;
+    position: absolute;
+    top: .75em;
+    right: 1em;
+    z-index: 1000;
+    width: auto;
+    height: auto;
+}
+nav {
+    outline: none;
+}
+nav ul {
+    background: #984800;
+    color: white;
+    border-top: 1px solid;
+    list-style: none;
+    margin: 86px 0px 0px 49px;
+    padding: 0;
+    position: fixed;
+}
+nav a {
+    border-bottom: 1px solid #000;
+    color: white;
+    display: block;
+    	font: inherit;
+	font-weight: 400;
+	font-size: 1em;
+    line-height: 2;
+    padding: 0 1em;
+    outline: none;
+    -webkit-transition: background .4s, color 0s .1s;
+       -moz-transition: background .4s, color 0s .1s;
+        -ms-transition: background .4s, color 0s .1s;
+            transition: background .4s, color 0s .1s;
+}
+nav mark a {
+    background: #000;
+    color: #fff;
+}
+nav ul a:hover,
+nav ul a:focus,
+nav mark a:hover,
+nav mark a:focus {
+    background: #00D9B8;
+    color: #00A084;
+    -webkit-transition: background .4s;
+       -moz-transition: background .4s;
+        -ms-transition: background .4s;
+            transition: background .4s;
+}
+
+ 
