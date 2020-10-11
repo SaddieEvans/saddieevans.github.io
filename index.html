@@ -63,13 +63,10 @@ background: -webkit-linear-gradient(-45deg, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 68%,#
 background: linear-gradient(135deg, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 68%,#2ab0ed 100%);
     }     
     }
-    .hidden {
-    position: absolute !important;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    clip: rect(1px 1px 1px 1px); 
-    clip: rect(1px, 1px, 1px, 1px);
+    .filler { 
+      width: -webkit-fill-available;
+      border: 2px solid white;
+      padding: inherit;
     }
     .sidenav {
   height: 100%;
@@ -120,7 +117,7 @@ background: linear-gradient(135deg, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 68%,#2ab0ed 1
 Angels in art are usually shaped like humans of extraordinary beauty. They are often identified In Christian artwork with bird wings, halos, and divine light.</p>
   </main>
   <figure>
-    <img src="https://www.pixelstalk.net/wp-content/uploads/2016/06/Girl-white-angel-wallpapers-hd.jpg" alt"">
+    <img src="https://www.pixelstalk.net/wp-content/uploads/2016/06/Girl-white-angel-wallpapers-hd.jpg" class="filler" alt"">
   </figure>
   <nav id="navigation">
     <h1>Want to find out more? Check...</h1>
