@@ -34,7 +34,7 @@ function openNav() {
 }
 
 function closeNav() {
-  document.getElementById("Sidenav").style.width = "0";
+  document.getElementById("sidenav").style.width = "0";
   document.getElementById("main").style.marginLeft= "0";
   document.body.style.backgroundColor = "white";
 }
