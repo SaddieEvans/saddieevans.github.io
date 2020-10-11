@@ -69,13 +69,47 @@ background: -webkit-linear-gradient(-45deg, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 68%,#
 background: linear-gradient(135deg, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 68%,#2ab0ed 100%);
     }     
     }
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #984800;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
 
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #white;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #darkblue;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
   </style>
   </head>
 <body>
    <header>
      <div class="banner">ANGELS</div>
-  
+   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
   </header>
   <main>
     <img src="https://i.pinimg.com/originals/1f/07/ac/1f07ac108da82cae3d04427eff1164b9.gif" class="side" alt="">
@@ -95,7 +129,14 @@ Angels in art are usually shaped like humans of extraordinary beauty. They are o
       <li><a href="AngelArt.html">Angels in art</a></li>
       <li><a href="Gallery.html">Angels in art - gallery</a></li>
     </ul></nav>
- 
+ <div id="Sidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Etymology.html">Etymology</a>
+  <a href="Abrahamic.html">Angels in Abrahamic religions</a>
+  <a href="Religions.html">Angels in other religions</a>
+    <a href="AngelArt.html">Angels in art</a>
+  <a href="Gallery.html">Gallery</a>
+</div>
      <footer>
     <p>This site's content, text and pictures on the Gallery page, belongs to <a href="https://en.wikipedia.org/wiki/Angel">Angel Wikipedia article</a>. The content was viewed on <time>01.10.2020</time>.</p>
   </footer>
